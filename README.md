@@ -3,8 +3,6 @@ Let's start off our exploration of Java with a classic programming challenge, Fi
 
 But first, let's get you your own copy of this codebase to work with.
 
-hhhhhhhhhhhhhhhhhhhh
-
 ## Task 0 Forking a public repository on GitHub
 
 You should be currently reading this README on GitHub in the code repository:
@@ -57,7 +55,9 @@ which enables basic typesetting when viewed while still being a plaintext format
 editing and version control.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] (with no spaces) to mark this as done!
+- [X] Put an X in the [ ] (with no spaces) to mark this as done!
+
+- [X] Know what to do.
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -103,7 +103,6 @@ Let's explore a solution written in Java.
  * Solve the FizzBuzz challenge.
  */
 class FizzBuzz {
-
     public static void main(String[] args) {
 
         for (int i = 1; i < 100; i++) {
@@ -170,7 +169,7 @@ This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
 ```java
-public static void main(String[] args)
+public static void main(String[] args);
 ```
 
 This is the main method, the entry point of your program. You have installed Java,
@@ -369,7 +368,7 @@ Now, let's modify your code so that it is easy to test.
   the answer, call it `multiples`. The answer should still be printed in your `Multiples.main` method.
   After you do this, your `Multiples.main` method should look something like:
 
-```java
+```
 int count = multiples();
 System.out.println(count);
 ```
